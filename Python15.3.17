@@ -1,0 +1,54 @@
+Python:-
+        1. High level
+		
+Difference between Low-Level & High-Level Language
+High-level Language
+1. Learning
+
+High-level languages are easy to learn.
+
+2 Understanding
+
+High0level languages are near to human languages.
+3. Execution
+
+Programs in high-level languages are slow in execution.
+4. Modification
+
+Programs in high-level languages are easy to modify.
+5. Facility at hardware level
+
+High-level languages do not provide much facility at hardware level.
+6. Knowledge of hardware Deep 
+
+Knowledge of hardware is not required to write programs.
+7. Uses 
+
+These languages are normally used to write application programs.
+
+
+
+Low-level languages
+1. Learning
+
+Low-level languages are difficult to learn.
+2 Understanding
+
+Low-level languages are far from human languages.
+3. Execution
+
+Programs in low-level languages are fast in execution.
+4. Modification
+
+Programs in low-level languages are difficult to modify.
+5. Facility at hardware level
+
+Low-level languages provide facility to write programs at hardware level.
+6. Knowledge of hardware Deep 
+
+Deep knowledge of hardware is required to write programs.
+7. Uses 
+
+These languages are normally used to write hardware programs.
+
+Python :- You do not need to compile your program before executing it
