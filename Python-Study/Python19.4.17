@@ -1,0 +1,312 @@
+
+
+
+Python is a powerful high-level, object-oriented programming language created by Guido van Rossum.
+
+It has simple easy-to-use syntax, making it the perfect language for someone trying to learn computer programming for the first time.
+
+This is a comprehensive guide on how to get started in Python, why you should learn it and how you can learn it.
+
+What is Python (Programming)? - The Basics
+
+https://www.programiz.com/
+
+Before getting started, lets get familiarized with the language first.
+
+Python is a general-purpose language. It has wide range of applications from Web development (like: Django and Bottle), scientific and mathematical computing (Orange, SymPy, NumPy) to desktop graphical user Interfaces (Pygame, Panda3D).
+
+The syntax of the language is clean and length of the code is relatively short. It's fun to work in Python because it allows you to think about the problem rather than focusing on the syntax.
+
+More information on Python Language:
+History of Python
+Features of Python Programming
+Applications of Python
+
+ 
+4 Reasons to Choose Python as First Language
+
+https://www.programiz.com/
+
+    Simple Elegant Syntax
+
+    Programming in Python is fun. It's easier to understand and write Python code. Why? The syntax feels natural. Take this source code for an example:
+
+    a = 2
+    b = 3
+    sum = a + b
+    print(sum)
+
+
+    Even if you have never programmed before, you can easily guess that this program adds two numbers and prints it.
+    Not overly strict
+
+    You don't need to define the type of a variable in Python. Also, it's not necessary to add semicolon at the end of the statement.
+
+    Python enforces you to follow good practices (like proper indentation). These small things can make learning much easier for beginners.
+    Expressiveness of the language
+
+    Python allows you to write programs having greater functionality with fewer lines of code. Here's a link to the source code of Tic-tac-toe game with a graphical interface and a smart computer opponent in less than 500 lines of code. This is just an example. You will be amazed how much you can do with Python once you learn the basics.
+    Great Community and Support
+
+    Python has a large supporting community. There are numerous active forums online which can be handy if you are stuck. Some of them are:
+        Learn Python subreddit
+        Google Forum for Python
+        Python Questions - Stack Overflow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Program to Add Two Numbers
+
+    script.py
+    IPython Shell
+
+Powered by DataCamp
+How this program works?
+
+Line 1: # Add two numbers
+
+Any line starting with # in Python programming is a comment.
+
+Comments are used in programming to describe the purpose of the code. This helps you as well as other programmers to understand the intent of the code. Comments are completely ignored by compilers and interpreters.
+
+Line 2: num1 = 3
+
+Here, num1 is a variable. You can store a value in a variable. Here, 3 is stored in this variable.
+
+Line 3: num2 = 5
+
+Similarly, 5 is stored in num2 variable.
+
+Line 4: sum = num1+num2
+
+The variables num1 and num2 are added using + operator. The result of addition is then stored in another variable sum.
+
+Line 5: print(sum)
+
+The print() function prints the output to the screen. In our case, it prints 8 on the screen.
+Few Important Things to Remember
+
+To represent a statement in Python, newline (enter) is used. The use of semicolon at the end of the statement is optional (unlike languages like C/C++, JavaScript, PHP). In fact, it's recommended to omit semicolon at the end of the statement in Python.
+
+Instead of curly braces { }, indentations are used to represent a block.
+
+   im_a_parent:
+    im_a_child:
+        im_a_grand_child
+    im_another_child:
+        im_another_grand_child
+		
+		
+
+		
+Python Variables
+
+A variable is a location in memory used to store some data (value).
+
+They are given unique names to differentiate between different memory locations. The rules for writing a variable name is same as the rules for writing identifiers in Python.
+
+We don't need to declare a variable before using it. In Python, we simply assign a value to a variable and it will exist. We don't even have to declare the type of the variable. This is handled internally according to the type of value we assign to the variable.
+Variable assignment
+
+We use the assignment operator (=) to assign values to a variable. Any type of value can be assigned to any valid variable.
+
+a = 5
+b = 3.2
+c = "Hello"
+
+Here, we have three assignment statements. 5 is an integer assigned to the variable a.
+
+Similarly, 3.2 is a floating point number and "Hello" is a string (sequence of characters) assigned to the variables b and c respectively.
+Multiple assignments
+
+In Python, multiple assignments can be made in a single statement as follows:
+
+a, b, c = 5, 3.2, "Hello"
+
+If we want to assign the same value to multiple variables at once, we can do this as
+
+x = y = z = "same"
+
+This assigns the "same" string to all the three variables.
+
+
+Data types in Python
+
+Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+
+There are various data types in Python. Some of the important types are listed below.
+Python Numbers
+
+Integers, floating point numbers and complex numbers falls under Python numbers category. They are defined as int, float and complex class in Python.
+
+We can use the type() function to know which class a variable or a value belongs to and the isinstance() function to check if an object belongs to a particular class.
+
+    script.py
+    IPython Shell
+
+Powered by DataCamp
+
+Integers can be of any length, it is only limited by the memory available.
+
+A floating point number is accurate up to 15 decimal places. Integer and floating points are separated by decimal points. 1 is integer, 1.0 is floating point number.
+
+Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part. Here are some examples.
+
+>>> a = 1234567890123456789
+>>> a
+1234567890123456789
+>>> b = 0.1234567890123456789
+>>> b
+0.12345678901234568
+>>> c = 1+2j
+>>> c
+(1+2j)
+
+Notice that the float variable b got truncated.
+Python List
+
+List is an ordered sequence of items. It is one of the most used datatype in Python and is very flexible. All the items in a list do not need to be of the same type.
+
+Declaring a list is pretty straight forward. Items separated by commas are enclosed within brackets [ ].
+
+>>> a = [1, 2.2, 'python']
+
+We can use the slicing operator [ ] to extract an item or a range of items from a list. Index starts form 0 in Python.
+
+    script.py
+    IPython Shell
+
+Powered by DataCamp
+
+Lists are mutable, meaning, value of elements of a list can be altered.
+
+>>> a = [1,2,3]
+>>> a[2]=4
+>>> a
+[1, 2, 4]
+
+Python Tuple
+
+Tuple is an ordered sequence of items same as list.The only difference is that tuples are immutable. Tuples once created cannot be modified.
+
+Tuples are used to write-protect data and are usually faster than list as it cannot change dynamically.
+
+It is defined within parentheses () where items are separated by commas.
+
+>>> t = (5,'program', 1+3j)
+
+We can use the slicing operator [] to extract items but we cannot change its value.
+
+    script.py
+    IPython Shell
+
+Powered by DataCamp
+Python Strings
+
+String is sequence of Unicode characters. We can use single quotes or double quotes to represent strings. Multi-line strings can be denoted using triple quotes, ''' or """.
+
+>>> s = "This is a string"
+>>> s = '''a multiline
+
+Like list and tuple, slicing operator [ ] can be used with string. Strings are immutable.
+
+    script.py
+    IPython Shell
+
+Powered by DataCamp
+Python Set
+
+Set is an unordered collection of unique items. Set is defined by values separated by comma inside braces { }. Items in a set are not ordered.
+
+    script.py
+    IPython Shell
+
+Powered by DataCamp
+
+We can perform set operations like union, intersection on two sets. Set have unique values. They eliminate duplicates.
+
+>>> a = {1,2,2,3,3,3}
+>>> a
+{1, 2, 3}
+
+Since, set are unordered collection, indexing has no meaning. Hence the slicing operator [] does not work.
+
+>>> a = {1,2,3}
+>>> a[1]
+Traceback (most recent call last):
+  File "<string>", line 301, in runcode
+  File "<interactive input>", line 1, in <module>
+TypeError: 'set' object does not support indexing
+
+Python Dictionary
+
+Dictionary is an unordered collection of key-value pairs.
+
+It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.
+
+In Python, dictionaries are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type.
+
+>>> d = {1:'value','key':2}
+>>> type(d)
+<class 'dict'>
+
+We use key to retrieve the respective value. But not the other way around.
+
+    script.py
+    IPython Shell
+
+Powered by DataCamp
+Conversion between data types
+
+We can convert between different data types by using different type conversion functions like int(), float(), str() etc.
+
+>>> float(5)
+5.0
+
+Conversion from float to int will truncate the value (make it closer to zero).
+
+>>> int(10.6)
+10
+>>> int(-10.6)
+-10
+
+Conversion to and from string must contain compatible values.
+
+>>> float('2.5')
+2.5
+>>> str(25)
+'25'
+>>> int('1p')
+Traceback (most recent call last):
+  File "<string>", line 301, in runcode
+  File "<interactive input>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '1p'
+
+We can even convert one sequence to another.
+
+>>> set([1,2,3])
+{1, 2, 3}
+>>> tuple({5,6,7})
+(5, 6, 7)
+>>> list('hello')
+['h', 'e', 'l', 'l', 'o']
+
+To convert to dictionary, each element must be a pair
+
+>>> dict([[1,2],[3,4]])
+{1: 2, 3: 4}
+>>> dict([(3,26),(4,44)])
+{3: 26, 4: 44}
