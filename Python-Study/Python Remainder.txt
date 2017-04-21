@@ -1,0 +1,4 @@
+Python -> Simple
+
+Keyword -> reserved word, cannot be used as variable/identifier.
+identifier -> used to identify , Case sensitive
