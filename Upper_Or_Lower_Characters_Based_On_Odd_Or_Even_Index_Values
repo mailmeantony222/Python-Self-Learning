@@ -1,0 +1,11 @@
+def modify(string):  
+  final = ""   
+  for i in range(len(string)):
+    if i % 2 == 0:
+      final = final + string[i].upper()     
+    else:
+      final = final + string[i].lower()     
+  return final
+string=raw_input("Enter string:")
+print("Final string is:")
+print(modify(string))
