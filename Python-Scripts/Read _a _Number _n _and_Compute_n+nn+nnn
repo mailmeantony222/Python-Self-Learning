@@ -1,0 +1,14 @@
+#Read a Number n and Compute n+nn+nnn
+
+#import string
+n = raw_input(" enter a number to compute:")
+
+
+
+num1=n
+num2=n+n
+num3=n+n+n
+
+final = int(num1)+int(num2)+int(num3)
+
+print ("Final value is", final)
